@@ -11,4 +11,3 @@ trait LoyaltyCard
 case class DrinksLoyaltyCard(stamps: Int = 0) extends LoyaltyCard
 
 case class DiscountLoyaltyCard(stars: Int = 0) extends LoyaltyCard
-
